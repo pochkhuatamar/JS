@@ -1,0 +1,94 @@
+@media (max-width:768px){
+    .hamburger {
+        display: block;
+    }
+
+    .nav_itmes {
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+     
+        width: 100%;
+        text-align: center;
+        
+    }
+    .nav_itmes > a {
+        margin: 16px 0;
+    }
+    .nav_itmes.active {
+        left: 0;
+    }
+   .text_news {
+    margin-left: 20px;
+}
+#open-popup-btn {
+    display: none;
+}
+.sec_treding  {
+    width: 80%;
+    margin-right: 60px;
+}
+.trend{
+    width: 90%;    
+}
+.arrow >i .arrow1  >h2 {
+    align-items: center;
+}
+.trend >img , h3, p,  .time1 {
+    margin-left: 150px;
+}
+
+#city {
+    width: 80%;
+    margin-left: 60px;
+}
+#wood {
+    width: 80%;
+    margin-left: 60px;
+}
+
+.footer{
+    width: 80%;
+}
+.sec_happ .container{
+    flex-direction: column;
+    flex-wrap: wrap;  
+    height: auto;  
+}
+
+.inside_text {
+display: none;
+
+}
+.try {
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: 40px;
+    height: 1800px;
+    
+}
+.try >img {
+    max-width: 100%;
+    height: auto;
+   
+}
+.try2_img >img {
+    max-width: 100%;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+.try2 {
+    width: 95%;
+    margin-top:800px;
+     margin-left: 170px ;
+   
+}
+.time1 >h3 {
+   text-align: center;
+}
+
+}
+

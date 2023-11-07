@@ -1,0 +1,389 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+body {
+    background-color: skyblue; 
+    scroll-behavior: smooth; 
+    /* border: solid;
+    color:red; */
+}
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width:1440px;
+  
+  /* border: solid;
+  color:green; */
+}
+section {
+  overflow: hidden;
+}
+.font16 {
+   font-size: 16px;
+   font-weight: bold;
+   margin-top: 16px;
+ }
+ .time1  {
+   display: flex;
+   justify-content:left;
+   align-items:center;
+   margin-top: 10px;
+ }
+ .min {
+   margin-left: 9px;
+ }
+
+/* section header */
+ header {
+  top: 0;
+  position: sticky;
+  z-index: 26;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+ 
+  /* position: fixed; width: 100%; top: 0; left: 0; */
+}
+
+.nav-ul {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.hamburger {
+  display: none;
+}
+.fa-bars{
+  display: block;
+}
+
+.nav-ul li  {
+margin-right: 30px;
+font-size: 20px;
+}
+nav ul li:hover{
+  color: #ccc;
+  font-weight: bold;
+  transform: scale(1.2);
+}
+
+.nav-ul :last-child {
+  margin-left: 10px;
+}
+
+ /* popup  */
+ .open-popup-btn {
+  margin: 5px 10px;
+ }
+ .popup-overlay {
+  position: fixed;
+  top:0px;
+  left:0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0,0.5);
+  display:none ;
+ }
+ .popup {
+  position: fixed;
+  top:-150%;
+  /* ამ ჩანაწერით გაქრა :დ */
+  left:50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background: #FFFFFF;
+  padding: 20px;
+ }
+ .popup .popup-close-btn {
+  position: absolute;
+  top:10px;
+  right: 10px;
+  background: gray;
+  padding: 10px;
+  border-radius: 10px;
+  color: #eee;
+  cursor: pointer;
+ }
+ body.popup-active .popup {
+  top:50%;
+ }
+ body.popup-active .popup-overlay{
+  display: block;
+ } *
+
+
+ /* section world news  */
+ .sec_world {
+    max-width: 1440px;
+    width: 100%;
+    margin-top: 40px;
+ }
+
+ #world_news {
+    width:840px;
+    height: 600px;
+    background-image: url(../images/1page1.png);
+    background-size: cover;
+    background-repeat: no-repeat, no-repeat;
+    position: relative; 
+ }
+
+ .text_news {
+   width:600px;
+   height: 247px;
+   color:  #FFFFFF;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   
+ }
+ hr{
+   display: block;
+   height: 1px;
+   border: 0;
+   border-top: 1px solid #ccc;
+   margin: 16px 0;
+   padding: 0;
+}
+ .text_news >h3 {
+   font-size: 24px;
+   font-weight: bold;
+   margin-top: 50px;
+  
+ }
+ .text_news >p {
+  font-size: 16px;
+  margin-top: 8px;
+ }
+ .text_news >button {
+   width: 134px;
+   height: 40px;
+   background-color: #FA6980;
+   border-radius: 8px;
+   margin-top: 20px;
+ }
+
+ /* section more news  */
+
+ #more_news {
+   position: relative;
+    width: 600px;
+    /* height: 600px; */
+    margin-left: 840px;
+ }
+ .box1 {
+    /* border: solid;
+    color:black; */
+    width: 380px;
+    /* height: 60px; */
+    margin-left: 100px;
+ }
+ .left-right {
+   display: flex;
+   justify-content: space-between;
+ }
+
+ .travel_box{
+    max-width: 402px;
+    /* height: 299px; */
+    margin-left: 100px;
+    margin-top: 80px;
+ }
+ .travel_text >h2 {
+   color: red;
+   margin-top: 40px;
+ }
+ .travel_text >p {
+   margin-top: 8px;
+ }
+
+
+
+
+
+ /* section trendging */
+
+ .sec_treding {
+   margin-top: 40px;
+   width: 1160px;
+   margin-left: 120px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-direction: column;
+   /* border: solid;
+   color:green; */
+   background-color: #F6F8F9;
+ }
+ #trendging_box {
+  max-width:1160px;
+    /* height: 350px; */
+    width: 100%;
+    margin-top: 40px;
+    /* border: solid;
+     color:gray;  */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;   
+ }
+
+ .trend >p {
+   margin-top: 8px;
+ }
+
+ /* section happening now */
+ .sec_happ {
+  max-width: 1240px;
+  width: 100%;
+  margin-top: 40px;
+  margin-left: 80px;
+  /* border: solid;
+   color:black;  */
+   position: relative;
+ }
+ .try {
+   max-width: 760px;
+   width: 100%;
+   height: 900px;
+   position: relative;
+   margin-left: 33px;
+ }
+
+ #city{
+    width:760px;
+    height: 430px;
+    background-image: url(../images/1page5.png), url(../images/1page6.png);
+    background-size: cover;
+    background-repeat: no-repeat, no-repeat;
+    position: absolute;
+    margin-bottom: -1500px;
+    
+ }
+ .inside_text {
+   width:680px;
+   height: 102px;
+   /* border: solid;
+   color:red; */
+   margin-top: 250px;
+   margin-left: 30px;
+   color: #FFFFFF;
+   padding: 25px;
+ }
+ .inside_text >p {
+   margin-top: 5px;
+ }
+ .time {
+  margin-top: 5px;
+ }
+ #wood {
+    width:760px;
+    height: 430px;
+    background-image: url(../images/1page6.png);
+    background-size: cover;
+    background-repeat: no-repeat, no-repeat;  
+    position: absolute;
+    margin-top: 465px;
+    
+ }
+
+ .try2 {
+    /* border: solid;
+    color:black; */
+    max-width: 360px;
+    /* height: 900px; */
+    margin-left: 800px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+  
+ }
+ .left-right {
+  margin-left: 300px;
+ }
+ .try2_img {
+  margin-top: 40px;
+  width: 360px;
+  height: 210px;
+ }
+
+
+ /* section footer */
+
+ footer {
+   max-width: 1440px;
+   width: 100%;
+   /* height: 200px; */
+   margin-top: 40px;  
+   background-color: #A6ADB4;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;   
+
+ } 
+ .logo_wrapper >h2 {
+  margin-left: 80px;
+  font-weight: bold;
+  font-size: 13px;
+ }
+ .footer-wrapper {
+   max-width:  210px;
+   width: 100%;
+    display: flex;
+    flex-direction: column;
+ 
+}
+.footer-wrapper > h4  {
+   margin-top: 12px;
+   text-align: center;
+}
+.email_box{
+  position: relative;
+  
+}
+#arr{
+  position: absolute;
+  margin-right: 150px;
+}
+    /* width: 1400px;; */
+.socialbox #youremail {
+  margin-left: -50px;
+ 
+}
+.social {
+  margin-right: 130px;
+}
+.social >i {
+  padding: 5px;
+}
+.social >i:hover {
+   transform: scale(1.5);
+}
+.email_box {
+   width: 262px;
+   height: 65px;
+   position: relative;
+}
+.stay {
+  margin-top: 34px;
+  position: absolute;
+}
+
+form  {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+.loc {
+  position: absolute;
+  margin-left: 300px;
+
+}
+
+

@@ -1,0 +1,150 @@
+/* <<<<<<< second page >>>>>>> */
+body {
+  margin: 0 auto;
+  width: 100%;
+  /* height: 100vh; */
+  max-width:1440px;
+
+}
+#disc_header {
+    /* border: solid;
+    color:black; */
+    width:580px;
+    height: 558px;  
+    
+ }
+ #disc_header {
+    width:580px;
+    height: 500px;
+    margin-top: 40px;
+    background-image: url(../../images/2page1.png);
+    background-size: cover;
+    background-repeat: no-repeat, no-repeat;
+    position: relative;
+    margin-left: 100px;
+ }
+
+ #disc_title {
+    /* border: solid;
+    color:red; */
+    width:199px;
+    height: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .img_box {
+   /* border: solid;
+   color:red; */
+   width:360px;
+   height: 190px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+ }
+ .center_element > hr{
+   margin-left: 150px;
+   border-color: #FA6980;
+
+ }
+ .center_element >img {
+   margin-left: 150px;
+   margin-top: 60px;
+ }
+ 
+ #select_wrapper{
+    width:580px;
+    height: 500px;
+    margin-left: 600px;
+    position: relative;  
+   
+ }
+ .select_box {
+   /* border: solid;
+   color:yellow; */
+   width:360px;
+   height: 246px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+ }
+ .burger {
+   position: absolute;
+   margin-left: 540px;
+ }
+ .select_box2 {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   margin-top: 15px;
+ }
+ .label2 {
+   margin-top: 50px;
+ }
+ .select_btn {
+   width: 134px;
+   height: 40px;
+   background-color: #FA6980;
+   border-radius: 8px;
+   cursor: pointer;
+   margin-top: 50px;
+ }
+
+ /* second section  */
+ #boy_box{
+    border: solid;
+    color:black;
+    width:1160px;
+    height: 253px;
+    margin-top: 50px;
+    position: relative;
+    margin-left: 100px;
+ }
+
+
+ .boy_text2 {
+   width:360px;
+   height: 61px;
+   position: absolute;
+   margin-top: 70px;
+   
+ }
+
+ .long_text {
+   width:360px;
+   height: 172px;
+   position: absolute;
+   margin-left: 380px;
+   /* margin-top: 50px; */
+ }
+ .long_text2{
+  width:360px;
+  height: 172px;
+  margin-left: 780px;
+ }
+
+
+
+ /* section elephan */
+ #elephant_box {
+    width:1160px;
+    height: 500px;
+    margin-top: 40px;
+    background-image: url(../../images/2page3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 100px;
+
+ }
+ .elephan_text {
+   width:760px;
+   height: 250px;
+   margin-top: 40px;
+   margin-left: 100px;
+ }
+ .p1 {
+  text-indent:  12px;
+  line-height: 24px;
+ }
